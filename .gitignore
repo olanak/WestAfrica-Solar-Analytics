@@ -1,1 +1,12 @@
-data/
+# env & caches
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# secrets / local config
+.env
+.streamlit/secrets.toml
+
+# artifacts
+figs/
